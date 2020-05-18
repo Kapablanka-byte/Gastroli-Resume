@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+    url('../fonts/Gilroy-ExtraBold.eot') format('embedded-opentype'),
+    url('../fonts/Gilroy-ExtraBold.ttf')  format('truetype'),
+    url('../fonts/Gilroy-ExtraBold.svg') format('svg');
+}
+@font-face {
+    font-family: 'Romul';
+    src: url('../fonts/Romul.woff') format('woff'),
+    url('../fonts/Romul.eot') format('embedded-opentype'),
+    url('../fonts/Romul.ttf')  format('truetype'),
+    url('../fonts/Romul.svg') format('svg');
+	   font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff') format('woff'),
+    url('../fonts/Rubik-Regular.eot') format('embedded-opentype'),
+    url('../fonts/Rubik-Regular.ttf')  format('truetype'),
+    url('../fonts/Rubik-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff') format('woff'),
+    url('../fonts/Rubik-Medium.eot') format('embedded-opentype'),
+    url('../fonts/Rubik-Medium.ttf')  format('truetype'),
+    url('../fonts/Rubik-Medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}

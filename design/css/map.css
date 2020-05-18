@@ -1,0 +1,791 @@
+.mouse {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.svg-day {
+    position: relative;
+    z-index: 9;
+    background: #7bd2ff;
+    cursor: -webkit-grab;
+}
+.svg-day.night{
+    background: #000d30;
+}
+
+
+.pre-map {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background: #fafcfd;
+}
+
+
+.pre-map img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    max-width: 250px;
+}
+
+body {
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+
+.svg-day #BARSECURITY,
+.svg-day #SECURITY{
+    animation: secutiry 15s infinite;
+}
+
+
+.svg-day #ADMINISTRATOR,
+.svg-day #ADMIN {
+    animation: secutiry 8s linear infinite;
+}
+
+@-webkit-keyframes secutiry {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(90deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@keyframes secutiry {
+    0% {
+        ttransform: translate(0, 0);
+    }
+    20%  {
+        transform: translate(-20px, -20px);
+    }
+    40% {
+        transform: translate(0, 0);
+    }
+    60% {
+        transform: translate(20px, 20px);
+    }
+    80% {
+        transform: translate(-20px, 20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.svg-day #PLANTS g,
+.svg-day #Layer_502 g {
+    transform-origin: 50% 50%;
+    animation: tree 50s linear infinite;
+}
+
+@-webkit-keyframes tree {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(90deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@keyframes tree {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.svg-day #PERSON_IN_THE_POOL_ONE,
+.svg-day #PERSONONMATRASSONE {
+    transform-origin: 60% 60%;
+    animation: pull-1 23s linear infinite;
+}
+@-webkit-keyframes pull-1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@keyframes pull-1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.svg-day #PERSON_IN_THE_POOL_THREE,
+.svg-day #PERSONONMATRASSTWO {
+    animation: pull-2 5s infinite;
+}
+
+@keyframes pull-2 {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-20px, -20px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes pull-2 {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+    }
+    50% {
+        -webkit-transform: translate(-20px, -20px);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+.svg-day #PERSON_IN_THE_POOL_TWO,
+.svg-day #PERSONONMATRASSTHREE{
+    transform: scaleY(1.01);
+    -webkit-transform: scaleY(1.01);
+    animation: pull-3 8s linear infinite;
+}
+
+
+@-webkit-keyframes pull-3 {
+    0% {
+        -webkit-transform: scaleY(1.01);
+    }
+    50% {
+        -webkit-transform: scaleY(0.98);
+    }
+    100% {
+        -webkit-transform: scaleY(1.01);
+    }
+}
+@keyframes pull-3 {
+    0% {
+        transform: scaleY(1.01);
+    }
+    50% {
+        transform: scaleY(0.98);
+    }
+    100% {
+        transform: scaleY(1.01);
+    }
+}
+
+#CONTOUR path {
+    animation: color-6 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+#SCELETON_ONE path {
+    animation: color-1 7s  infinite;
+    animation-fill-mode: forwards;
+}
+
+#SCELETON_TWO path {
+    animation: color-2 7s  infinite;
+    animation-fill-mode: forwards;
+}
+
+#SCELETON_THREE path {
+    animation: color-3 7s  infinite;
+    animation-fill-mode: forwards;
+}
+
+#SCELETON_FOUR path {
+    animation: color-4 7s  infinite;
+    animation-fill-mode: forwards;
+}
+
+#SCELETON_FIVE path {
+    animation: color-5 7s  infinite;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes color-1 {
+    0% {
+        fill: yellow;
+    }
+    20% {
+        fill: orange;
+    }
+    40% {
+        fill: seagreen;
+    }
+    80% {
+        fill: deeppink;
+    }
+    100% {
+        fill: aqua;
+    }
+}
+@keyframes color-1 {
+    0% {
+        fill: yellow;
+    }
+    20% {
+        fill: orange;
+    }
+    40% {
+        fill: seagreen;
+    }
+    80% {
+        fill: deeppink;
+    }
+    100% {
+        fill: aqua;
+    }
+}
+@-webkit-keyframes color-2 {
+    0% {
+        fill: orange;
+    }
+    20% {
+        fill: seagreen;
+    }
+    40% {
+        fill: deeppink;
+    }
+    80% {
+        fill: aqua;
+    }
+    100% {
+        fill: yellow;
+    }
+}
+@keyframes color-2 {
+    0% {
+        fill: orange;
+    }
+    20% {
+        fill: seagreen;
+    }
+    40% {
+        fill: deeppink;
+    }
+    80% {
+        fill: aqua;
+    }
+    100% {
+        fill: yellow;
+    }
+}
+@-webkit-keyframes color-3 {
+    0% {
+        fill: seagreen;
+    }
+    20% {
+        fill: deeppink;
+    }
+    40% {
+        fill: aqua;
+    }
+    80% {
+        fill: yellow;
+    }
+    100% {
+        fill: orange;
+    }
+}
+@keyframes color-3 {
+    0% {
+        fill: seagreen;
+    }
+    20% {
+        fill: deeppink;
+    }
+    40% {
+        fill: aqua;
+    }
+    80% {
+        fill: yellow;
+    }
+    100% {
+        fill: orange;
+    }
+}
+@-webkit-keyframes color-4 {
+    0% {
+        fill: deeppink;
+    }
+    20% {
+        fill: aqua;
+    }
+    40% {
+        fill: yellow;
+    }
+    80% {
+        fill: orange;
+    }
+    100% {
+        fill: seagreen;
+    }
+}
+@keyframes color-4 {
+    0% {
+        fill: deeppink;
+    }
+    20% {
+        fill: aqua;
+    }
+    40% {
+        fill: yellow;
+    }
+    80% {
+        fill: orange;
+    }
+    100% {
+        fill: seagreen;
+    }
+}
+@-webkit-keyframes color-5 {
+    0% {
+        fill: aqua;
+    }
+    20% {
+        fill: yellow;
+    }
+    40% {
+        fill: orange;
+    }
+    80% {
+        fill: seagreen;
+    }
+    100% {
+        fill: deeppink;
+    }
+}
+@keyframes color-5 {
+    0% {
+        fill: aqua;
+    }
+    20% {
+        fill: yellow;
+    }
+    40% {
+        fill: orange;
+    }
+    80% {
+        fill: seagreen;
+    }
+    100% {
+        fill: deeppink;
+    }
+}
+@-webkit-keyframes color-6 {
+    0% {
+        fill: grey;
+    }
+    20% {
+        fill: darkgrey;
+    }
+    40% {
+        fill: dimgrey;
+    }
+    80% {
+        fill: lightgrey;
+    }
+    100% {
+        fill: #789;
+    }
+}
+@keyframes color-6 {
+    0% {
+        fill: grey;
+    }
+    20% {
+        fill: darkgrey;
+    }
+    40% {
+        fill: dimgrey;
+    }
+    80% {
+        fill: lightgrey;
+    }
+    100% {
+        fill: #789;
+    }
+}
+
+
+.clouds {
+    bottom: 0;
+    left: 0;
+    padding-top: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cloud1 {
+    top: 200px;
+    left: 400px;
+    display: block;
+    width: 40%;
+    height: 280px;
+    position: absolute;
+    background: url("../img/cloud1.svg") 100%/100% no-repeat;
+
+    -webkit-animation: cloud 75s linear infinite;
+    -moz-animation: cloud 75s linear infinite;
+    animation: cloud 75s linear infinite;
+
+
+}
+.cloud2 {
+    top: 0;
+    left: -60px;
+    display: block;
+    width: 40%;
+    height: 250px;
+    position: absolute;
+    background: url("../img/cloud2.svg") 100%/100% no-repeat;
+
+    -webkit-animation: cloud 30s linear infinite;
+    -moz-animation: cloud 30s linear infinite;
+    animation: cloud 30s linear infinite;
+}
+.cloud3 {
+    top: 40%;
+    left: 800px;
+    display: block;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    background: url("../img/cloud3.svg") 100%/100% no-repeat;
+
+    -webkit-animation: cloud 50s linear infinite;
+    -moz-animation: cloud 50s linear infinite;
+    animation: cloud 50s linear infinite;
+}
+.cloud4 {
+    top: 70px;
+    left: 0;
+    display: block;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    background: url("../img/cloud4.svg") 100%/100% no-repeat;
+
+
+    -webkit-animation: cloud 28s linear infinite;
+    -moz-animation: cloud 28s linear infinite;
+    animation: cloud 28s linear infinite;
+}
+
+.cloud5 {
+    bottom: 350px;
+    left: 0;
+    display: block;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    background: url("../img/cloud5.svg") 100%/100% no-repeat;
+
+    -webkit-animation: cloud 60s linear infinite;
+    -moz-animation: cloud 60s linear infinite;
+    animation: cloud 60s linear infinite;
+}
+.cloud6 {
+    top: 25%;
+    left: 0;
+    display: block;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    background: url("../img/cloud6.svg") 100%/100% no-repeat;
+
+    -webkit-animation: cloud 35s linear infinite;
+    -moz-animation: cloud 35s linear infinite;
+    animation: cloud 35s linear infinite;
+}
+
+
+
+@-webkit-keyframes cloud {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@-moz-keyframes cloud {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes cloud {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+
+.birds {
+    width: 40px;
+    position: absolute;
+    background: url("../img/bird1.svg") 100%/100% no-repeat;
+    top: 0;
+    left: 0;
+    height: 16px;
+    background-position: 0px 0px;
+    animation: bird 0.4s steps(1) infinite;
+}
+
+
+.rook1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-animation: rook1 10s linear infinite;
+    -moz-animation: rook1 10s linear infinite;
+    animation: rook1 10s linear infinite;
+}
+
+.rook1 .birds {
+    position: absolute;
+    transform: rotate(-50deg);
+}
+.rook1 .bird1{
+    top: 60px;
+    left: 60px;
+}
+.rook1 .bird2{
+    top: 20px;
+    left: 60px;
+}
+.rook1 .bird3{
+    top: 60px;
+    left: 20px;
+}
+.rook2 {
+    position: absolute;
+    right: 0;
+    top: 300px;
+    width: 100px;
+    height: 50px;
+    -webkit-animation: rook2 35s linear infinite;
+    -moz-animation: rook2 35s linear infinite;
+    animation: rook2 35s linear infinite;
+}
+.rook2 .birds {
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.rook2 .bird4 {
+    left: 0;
+    top: 0;
+}
+.rook2 .bird5 {
+    left: 20px;
+    top: 20px;
+}
+.rook2 .bird6 {
+    left: 40px;
+    top: 40px;
+}
+
+.rook3 {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+    -webkit-animation: rook3 25s linear infinite;
+    -moz-animation: rook3 25s linear infinite;
+    animation: rook3 25s linear infinite;
+}
+
+.rook3 .birds {
+    position: absolute;
+    transform: rotate(245deg);
+}
+
+.rook3 .bird8 {
+    left: 0;
+    top: -40px;
+}
+
+
+
+
+
+
+@-webkit-keyframes bird {
+    0% {
+        background-position: 0px 0px;
+    }
+    25% {
+        background-position: 0px -16px;
+    }
+    50% {
+        background-position: 0px -33px;
+    }
+    75% {
+        background-position: 0px -51px;
+    }
+    100% {
+        background-position: 0px 0px;
+    }
+}
+
+@-moz-keyframes bird {
+    0% {
+        background-position: 0px 0px;
+    }
+    25% {
+        background-position: 0px -16px;
+    }
+    50% {
+        background-position: 0px -33px;
+    }
+    75% {
+        background-position: 0px -51px;
+    }
+    100% {
+        background-position: 0px 0px;
+    }
+}
+
+@keyframes bird {
+    0% {
+        background-position: 0px 0px;
+    }
+    25% {
+        background-position: 0px -16px;
+    }
+    50% {
+        background-position: 0px -33px;
+    }
+    75% {
+        background-position: 0px -51px;
+    }
+    100% {
+        background-position: 0px 0px;
+    }
+}
+
+@-webkit-keyframes rook1 {
+    0% {
+        transform: translate(-10vh, -10vh);
+    }
+    100% {
+        transform: translate(100vh, 100vh);
+    }
+}
+
+@-moz-keyframes rook1 {
+    0% {
+        transform: translate(-10vh, -10vh);
+    }
+    100% {
+        transform: translate(100vh, 100vh);
+    }
+}
+
+@keyframes rook1 {
+    0% {
+        transform: translate(-10vh, -10vh);
+    }
+    100% {
+        transform: translate(100vh, 100vh);
+    }
+}
+
+
+@-webkit-keyframes rook2 {
+     0% {
+         transform: translateX(100%);
+     }
+     100% {
+         transform: translateX(-100vw);
+     }
+ }
+
+@-moz-keyframes rook2 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes rook2 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+
+@-webkit-keyframes rook3 {
+    0% {
+        transform: translate(-10vh, 10vh);
+    }
+    100% {
+        transform: translate(100vh, -100vh);
+    }
+}
+
+@-moz-keyframes rook3 {
+    0% {
+        transform: translate(-10vh, 10vh);
+    }
+    100% {
+        transform: translate(100vh, -100vh);
+    }
+}
+
+@keyframes rook3 {
+    0% {
+        transform: translate(-10vh, 10vh);
+    }
+    100% {
+        transform: translate(100vh, -100vh);
+    }
+}
